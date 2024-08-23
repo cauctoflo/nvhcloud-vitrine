@@ -1,0 +1,70 @@
+{
+    "plans": {
+        "1": {
+            "ipv4_addresses": "1 IPv4",
+            "ipv6_addresses": "1 IPv6",
+            "bandwidth": "100Mbits",
+            "latency": "10ms",
+            "uptime": "99.9%",
+            "price": {
+                "year": {
+                    "amount": 60,
+                    "currency": "€",
+                    "billingCycle": "year"
+                },
+                "month": {
+                    "amount": 5.99,
+                    "currency": "€",
+                    "billingCycle": "month"
+                },
+                "onSale": true,
+                "discount": "10%",
+                "finishdate": 1730394873
+            }
+        },
+        "2": {
+            "ipv4_addresses": "2 IPv4",
+            "ipv6_addresses": "2 IPv6",
+            "bandwidth": "500Mbits",
+            "latency": "5ms",
+            "uptime": "99.95%",
+            "price": {
+                "year": {
+                    "amount": 120,
+                    "currency": "€",
+                    "billingCycle": "year"
+                },
+                "month": {
+                    "amount": 10.99,
+                    "currency": "€",
+                    "billingCycle": "month"
+                },
+                "onSale": true,
+                "discount": "15%",
+                "finishdate": 1730394873
+            }
+        },
+        "3": {
+            "ipv4_addresses": "5 IPv4",
+            "ipv6_addresses": "10 IPv6",
+            "bandwidth": "1Gbits",
+            "latency": "2ms",
+            "uptime": "99.99%",
+            "price": {
+                "year": {
+                    "amount": 240,
+                    "currency": "€",
+                    "billingCycle": "year"
+                },
+                "month": {
+                    "amount": 20.99,
+                    "currency": "€",
+                    "billingCycle": "month"
+                },
+                "onSale": false,
+                "discount": "20%",
+                "finishdate": 1730394873
+            }
+        }
+    }
+}

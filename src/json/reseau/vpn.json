@@ -1,0 +1,73 @@
+{
+    "plans": {
+        "1": {
+            "servers": "50+",
+            "locations": "10 Pays",
+            "bandwidth": "Unlimited",
+            "encryption": "AES-256",
+            "devices": "5 Devices",
+            "uptime": "99.9%",
+            "price": {
+                "year": {
+                    "amount": 50,
+                    "currency": "€",
+                    "billingCycle": "year"
+                },
+                "month": {
+                    "amount": 4.99,
+                    "currency": "€",
+                    "billingCycle": "month"
+                },
+                "onSale": true,
+                "discount": "20%",
+                "finishdate": 1730394873
+            }
+        },
+        "2": {
+            "servers": "150+",
+            "locations": "30 Pays",
+            "bandwidth": "Unlimited",
+            "encryption": "AES-256",
+            "devices": "10 Devices",
+            "uptime": "99.95%",
+            "price": {
+                "year": {
+                    "amount": 90,
+                    "currency": "€",
+                    "billingCycle": "year"
+                },
+                "month": {
+                    "amount": 7.99,
+                    "currency": "€",
+                    "billingCycle": "month"
+                },
+                "onSale": true,
+                "discount": "15%",
+                "finishdate": 1730394873
+            }
+        },
+        "3": {
+            "servers": "300+",
+            "locations": "50 Pays",
+            "bandwidth": "Unlimited",
+            "encryption": "AES-256",
+            "devices": "Unlimited Devices",
+            "uptime": "99.99%",
+            "price": {
+                "year": {
+                    "amount": 150,
+                    "currency": "€",
+                    "billingCycle": "year"
+                },
+                "month": {
+                    "amount": 12.99,
+                    "currency": "€",
+                    "billingCycle": "month"
+                },
+                "onSale": false,
+                "discount": "10%",
+                "finishdate": 1730394873
+            }
+        }
+    }
+}
