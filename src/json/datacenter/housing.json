@@ -1,0 +1,76 @@
+{
+    "plans": {
+        "1": {
+            "slots": "1U",
+            "power": "500W",
+            "cooling": "Standard",
+            "network": "1Gbits",
+            "ip": "1 IPv4 + 1 IPv6",
+            "geekbench_score": 1108,
+            "geekbench_percent": 10,
+            "price": {
+                "year": {
+                    "amount": 240,
+                    "currency": "€",
+                    "billingCycle": "year"
+                },
+                "month": {
+                    "amount": 19.99,
+                    "currency": "€",
+                    "billingCycle": "month"
+                },
+                "onSale": true,
+                "discount": "15%",
+                "finishdate": 1730394873
+            }
+        },
+        "2": {
+            "slots": "2U",
+            "power": "1000W",
+            "cooling": "Advanced",
+            "network": "2Gbits",
+            "ip": "2 IPv4 + 1 IPv6",
+            "geekbench_score": 2200,
+            "geekbench_percent": 20,
+            "price": {
+                "year": {
+                    "amount": 360,
+                    "currency": "€",
+                    "billingCycle": "year"
+                },
+                "month": {
+                    "amount": 29.99,
+                    "currency": "€",
+                    "billingCycle": "month"
+                },
+                "onSale": true,
+                "discount": "10%",
+                "finishdate": 1730394873
+            }
+        },
+        "3": {
+            "slots": "4U",
+            "power": "1500W",
+            "cooling": "Premium",
+            "network": "5Gbits",
+            "ip": "4 IPv4 + 2 IPv6",
+            "geekbench_score": 4400,
+            "geekbench_percent": 40,
+            "price": {
+                "year": {
+                    "amount": 480,
+                    "currency": "€",
+                    "billingCycle": "year"
+                },
+                "month": {
+                    "amount": 49.99,
+                    "currency": "€",
+                    "billingCycle": "month"
+                },
+                "onSale": false,
+                "discount": "20%",
+                "finishdate": 1730394873
+            }
+        }
+    }
+}

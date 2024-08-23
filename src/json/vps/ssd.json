@@ -1,0 +1,124 @@
+{
+  "plans": {
+    "1": {
+      "vCPU": "2vCore",
+      "Memory": "2Go",
+      "CPU Power": "3.73GHz @ 2vCore",
+      "Storage": "10Go",
+      "Geekbench Pourcent": 100,
+      "Bandwidth": "500Mbits",
+      "Order Now": "#",
+      "Price": {
+        "year": {
+          "amount": 120,
+          "currency": "€",
+          "billingCycle": "year"
+        },
+        "month": {
+          "amount": 8.99,
+          "currency": "€",
+          "billingCycle": "month"
+        },
+        "onSale": false,
+        "discount": "20%",
+        "finishdate": 1730394873
+      }
+    },
+    "2": {
+      "vCPU": "2vCore",
+      "Memory": "4Go",
+      "CPU Power": "3.73GHz @ 2vCore",
+      "Storage": "20Go",
+      "Geekbench Pourcent": 100,
+      "Bandwidth": "2.5Gbits",
+      "Order Now": "#",
+      "Price": {
+        "year": {
+          "amount": 120,
+          "currency": "€",
+          "billingCycle": "year"
+        },
+        "month": {
+          "amount": 15.99,
+          "currency": "€",
+          "billingCycle": "month"
+        },
+        "onSale": false,
+        "discount": "20%",
+        "finishdate": 1
+      }
+    },
+    "3": {
+      "vCPU": "4vCore",
+      "Memory": "8Go",
+      "CPU Power": "3.73GHz @ 4vCore",
+      "Storage": "60Go",
+      "Geekbench Pourcent": 100,
+      "Bandwidth": "3.75Gbits",
+      "Order Now": "#",
+      "Price": {
+        "year": {
+          "amount": 120,
+          "currency": "€",
+          "billingCycle": "year"
+        },
+        "month": {
+          "amount": 23.99,
+          "currency": "€",
+          "billingCycle": "month"
+        },
+        "onSale": false,
+        "discount": "20%",
+        "finishdate": 1730394873
+      }
+    },
+    "4": {
+      "vCPU": "6vCore",
+      "Memory": "16Go",
+      "CPU Power": "3.73GHz @ 6vCore",
+      "Storage": "110Go",
+      "Geekbench Pourcent": 100,
+      "Bandwidth": "5Gbits",
+      "Order Now": "#",
+      "Price": {
+        "year": {
+          "amount": 120,
+          "currency": "€",
+          "billingCycle": "year"
+        },
+        "month": {
+          "amount": 41.99,
+          "currency": "€",
+          "billingCycle": "month"
+        },
+        "onSale": false,
+        "discount": "20%",
+        "finishdate": 1730394873
+      }
+    },
+    "5": {
+      "vCPU": "12vCore",
+      "Memory": "32Go",
+      "CPU Power": "3.73GHz @ 12vCore",
+      "Storage": "220Go",
+      "Geekbench Pourcent": 100,
+      "Bandwidth": "10Gbits",
+      "Order Now": "#",
+      "Price": {
+        "year": {
+          "amount": 120,
+          "currency": "€",
+          "billingCycle": "year"
+        },
+        "month": {
+          "amount": 76.99,
+          "currency": "€",
+          "billingCycle": "month"
+        },
+        "onSale": false,
+        "discount": "20%",
+        "finishdate": 1730394873
+      }
+    }
+  }
+}

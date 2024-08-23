@@ -1,0 +1,55 @@
+{
+    "plans": {
+      "1": {
+        "vCPU": "1 vCPU",
+        "Memory": "2GB",
+        "CPU Power": "2.4GHz 1 core",
+        "Storage": "20GB",
+        "Geekbench Score": 3513,
+        "Geekbench Pourcent": 30,
+        "Bandwidth": "1000GB",
+        "Order Now": "URL or Call to action",
+        "Price": {
+          "year": {
+            "amount": 120,
+            "currency": "USD",
+            "billingCycle": "year"
+          },
+          "month": {
+            "amount": 3.95,
+            "currency": "USD",
+            "billingCycle": "month"
+          },
+          "onSale": true,
+          "discount": "30%",
+          "finishdate": 1730394873
+        }
+      },
+      "2": {
+        "vCPU": "1 vCPU",
+        "Memory": "2GB",
+        "CPU Power": "2.4GHz 1 core",
+        "Storage": "20GB",
+        "Geekbench Score": 3513,
+        "Geekbench Pourcent": 30,
+        "Bandwidth": "1000GB",
+        "Order Now": "URL or Call to action",
+        "Price": {
+          "year": {
+            "amount": 120,
+            "currency": "USD",
+            "billingCycle": "year"
+          },
+          "month": {
+            "amount": 3.95,
+            "currency": "USD",
+            "billingCycle": "month"
+          },
+          "onSale": true,
+          "discount": "30%",
+          "finishdate": 1730394873
+        }
+      }
+    }
+  }
+  

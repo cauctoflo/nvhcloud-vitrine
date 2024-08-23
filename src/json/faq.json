@@ -1,0 +1,15 @@
+[
+    
+    {
+        "question": "Quels types de VPS proposez-vous ?",
+        "answer": "Nous proposons plusieurs types de VPS, incluant des VPS standard pour les applications web, des VPS optimisés pour les jeux, et des VPS haute performance pour les applications nécessitant des ressources importantes."
+    },
+    {
+        "question": "Quels avantages offrent vos offres de jeux ?",
+        "answer": "Nos offres de jeux incluent des serveurs haute performance avec une faible latence, des installations faciles pour de nombreux jeux populaires, et une protection DDoS avancée pour garantir une expérience de jeu ininterrompue."
+    },
+    {
+        "question": "Comment fonctionne votre protection anti-DDoS ?",
+        "answer": "Notre protection anti-DDoS détecte et atténue automatiquement les attaques DDoS en temps réel, assurant ainsi la disponibilité continue de vos services en ligne sans interruption."
+    }
+]
