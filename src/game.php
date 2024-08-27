@@ -1,60 +1,60 @@
 <!DOCTYPE html>
 <html lang="fr">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Menu avec Hover</title>
-      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-      <link href="./css/output.css" rel="stylesheet">
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-      <!-- animation -->
-      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu avec Hover</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="./css/output.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-      <link rel="stylesheet" href="./css/perso/main.css">
-		<link rel="stylesheet" href="./css/perso/custom.css">
+    <link rel="stylesheet" href="./css/perso/main.css">
+    <link rel="stylesheet" href="./css/perso/custom.css">
 
-      <style>
-         /* Ajout de styles personnalisés pour gérer le menu déroulant */
-         .group:hover .submenu {
-         display: block;
-         }
-         .text-transition_inner {
-         overflow: hidden;
-         display: block;
-         position: absolute;
-         top: 0;
-         left: 0;
-         height: 100%;
-         width: 22rem;
-         }
-         .bounce-1 {
-         animation-name: bounce;
-         animation-duration: 5s;
-         animation-iteration-count: infinite;
-         }
-         @keyframes bounce {
-         0% {transform: translateY(0);}
-         50% {transform: translateY(-5px);}
-         100% {transform: translateY(0);}
-         }
-         @layer utilities {
-         .highlight {
-         background-color: #00aaff;
-         color: white;
-         }
-         }
-         .text-transition_inner div {
-         transition: transform 0.5s ease-in-out;
-         }
-         /* * {
-         border-color: red;
-         border-style: solid;
-         border-width: 2px;
-         } */
-      </style>
+    <style>
+        /* Ajout de styles personnalisés pour gérer le menu déroulant */
+        .group:hover .submenu {
+            display: block;
+        }
+        .text-transition_inner {
+            overflow: hidden;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 22rem;
+        }
+        .bounce-1 {
+            animation-name: bounce;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes bounce {
+            0% {transform: translateY(0);}
+            50% {transform: translateY(-5px);}
+            100% {transform: translateY(0);}
+        }
+        @layer utilities {
+            .highlight {
+                background-color: #00aaff;
+                color: white;
+            }
+        }
+        .text-transition_inner div {
+            transition: transform 0.5s ease-in-out;
+        }
+        /* * {
+        border-color: red;
+        border-style: solid;
+        border-width: 2px;
+        } */
+    </style>
    </head>
    <body class=" w-screen overflow-x-hidden ">
       <?php include 'navbar.html';?>
@@ -113,7 +113,7 @@
                     </div>
                 </div>
 
-                
+
 
 <div class="row align-items-center justify-content-between">
 
@@ -169,9 +169,9 @@
             </div>
 
 
-                
+
         </section>
-         
+
         <section id="features" class="feature-tab-section ptb-100">
             <div class="container mx-auto">
                 <div class="row mx-auto">
@@ -182,11 +182,11 @@
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-9 col-12 order-xl-first">
-                        <h2>Meilleur support et sécurité</h2>
+                        <h2 class="text-4xl mb-4 font-bold text-center">Meilleur support et sécurité</h2>
                         <p>Développez progressivement des compétences essentielles à la mission sans paradigmes magnétiques. Développez de manière appropriée un retour sur investissement flexible sans service client axé sur les objectifs. De manière transparente.</p>
                         <div class="row pt-2">
                             <div class="col-md-6 col-12">
-                                <h5>Optimisation FiveM</h5>
+                                <h5 class="text-2xl font-bold" >Optimisation FiveM</h5>
                                 <ul class="disc-style">
                                     <li>Dernière version de Java la plus rapide</li>
                                     <li>Support pour les plugins FiveM</li>
@@ -195,7 +195,7 @@
                                 </ul>
                             </div>
                             <div class="col-md-6 col-12">
-                                <h5>Panel Pterodactyl</h5>
+                                <h5 class="text-2xl font-bold">Panel Pterodactyl</h5>
                                 <ul class="disc-style">
                                     <li>Gestion facile des serveurs FiveM</li>
                                     <li>Contrôle complet du serveur via une interface conviviale</li>
@@ -221,11 +221,11 @@
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-7 col-12 order-xl-last">
-                <h2>Hébergement partagé mondialement connu</h2>
+                <h2 class="text-4xl mb-4 font-bold text-center">Hébergement partagé mondialement connu</h2>
                 <p>Optimisez votre serveur FiveM pour des performances et une sécurité maximales. Obtenez la dernière version de Java pour des parties plus rapides, un support pour les plugins FiveM, une optimisation des performances et une protection DDoS. Gérez facilement votre serveur FiveM avec le panneau de contrôle Pterodactyl, qui vous permet d'avoir un contrôle total sur votre serveur grâce à une interface conviviale. Installez des mods et des plugins en un seul clic et surveillez les performances de votre serveur en temps réel. Commencez maintenant et découvrez les meilleurs services d'hébergement FiveM.</p>
                 <div class="row pt-2">
                     <div class="col-md-6 col-12">
-                    <h5>Fonctionnalités exclusives</h5>
+                    <h5 class="text-2xl font-bold">Fonctionnalités exclusives</h5>
                     <ul class="disc-style">
                         <li>Sauvegardes quotidiennes et restauration gratuite des sauvegardes</li>
                         <li>Mises à jour de sécurité et correctifs</li>
@@ -234,7 +234,7 @@
                     </ul>
                     </div>
                     <div class="col-md-6 col-12">
-                    <h5>Services FiveM</h5>
+                    <h5 class="text-2xl font-bold">Services FiveM</h5>
                     <ul class="disc-style">
                         <li>Installation de FiveM en un clic</li>
                         <li>Transfert gratuit de FiveM</li>
@@ -271,7 +271,7 @@
             </div>
         </section>
 
-    
+
         <section>
 	<?php
 		$json = file_get_contents('json/faq.json');
@@ -303,13 +303,13 @@
 	<script>
 		document.addEventListener('DOMContentLoaded', function() {
 		const buttons = document.querySelectorAll('.question-btn');
-		
+
 		buttons.forEach(button => {
 		    button.addEventListener('click', function() {
 		    const targetId = this.getAttribute('data-toggle');
 		    const target = document.getElementById(targetId);
 		    const isExpanded = target.style.display === 'block';
-		
+
 		    if (isExpanded) {
 		        target.style.display = 'none';
 		        this.querySelector('svg').classList.remove('rotate-180');

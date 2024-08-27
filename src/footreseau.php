@@ -10,7 +10,7 @@
             <div class="bg-white p-8 rounded-lg shadow">
                <h3 class="text-lg font-semibold mb-2">Pourquoi nous choisir ?</h3>
                <ul class="text-gray-600">
-                  <li class="mb-2"><span class="font-semibold">Réseau :</span> Notre réseau AS29205 possède une capacité de plus de 320 Gbps nous permettant d'être très résilients en cas de panne. Nous avons plusieurs sites de répartition interconnectés, ce qui nous permet d'opérer à plus de 100km de distance.</li>
+                  <li class="mb-2"><span class="font-semibold">Réseau :</span> Notre réseau AS210926  possède une capacité de plus de 320 Gbps nous permettant d'être très résilients en cas de panne. Nous avons plusieurs sites de répartition interconnectés, ce qui nous permet d'opérer à plus de 100km de distance.</li>
                   <li class="mb-2"><span class="font-semibold">Datacenters certifiés :</span> Notre infrastructure est hébergée dans des datacentres basés sur le modèle de conception Tier 3.</li>
                   <li class="mb-2"><span class="font-semibold">Climatisation :</span> L'infrastructure est maintenue à une température de 23°C afin d'optimiser la durée de vie du matériel sans perdre ses performances.</li>
                </ul>
@@ -24,7 +24,7 @@
             <div class="bg-white p-8 rounded-lg shadow grid grid-cols-1 md:grid-cols-2 gap-8">
                <div>
                   <h3 class="text-lg font-semibold mb-2">Redondance réseau</h3>
-                  <p class="text-gray-600">Notre réseau AS29205 est alimenté par plusieurs fournisseurs. Nous utilisons des liens de secours sur un réseau diversifié pour assurer la continuité du service même lors d'une panne. Nous proposons du transit sur port 100, 400, 1000.</p>
+                  <p class="text-gray-600">Notre réseau AS210926  est alimenté par plusieurs fournisseurs. Nous utilisons des liens de secours sur un réseau diversifié pour assurer la continuité du service même lors d'une panne. Nous proposons du transit sur port 100, 400, 1000.</p>
                </div>
                <img src="https://via.placeholder.com/600x400" alt="Network Image" class="w-full h-auto rounded-lg shadow">
             </div>

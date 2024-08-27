@@ -1,48 +1,60 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>NVHCloud SAS - Principal</title>
-		<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		<link rel="stylesheet" href="./css/perso/main.css">
-		<link rel="stylesheet" href="./css/perso/custom.css">
-		<style>
-			.group:hover .submenu {
-			display: block;
-			}
-			.text-transition_inner {
-			overflow: hidden;
-			display: block;
-			position: absolute;
-			top: 0;
-			left: 0;
-			height: 100%;
-			width: 22rem;
-			}
-			.bounce-1 {
-			animation-name: bounce;
-			animation-duration: 5s;
-			animation-iteration-count: infinite;
-			}
-			@keyframes bounce {
-			0% {transform: translateY(0);}
-			50% {transform: translateY(-5px);}
-			100% {transform: translateY(0);}
-			}
-			@layer utilities {
-			.highlight {
-			background-color: #00aaff;
-			color: white;
-			}
-			}
-			.text-transition_inner div {
-			transition: transform 0.5s ease-in-out;
-			}
-		</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu avec Hover</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="./css/output.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="./css/perso/main.css">
+    <link rel="stylesheet" href="./css/perso/custom.css">
+
+    <style>
+        /* Ajout de styles personnalisés pour gérer le menu déroulant */
+        .group:hover .submenu {
+            display: block;
+        }
+        .text-transition_inner {
+            overflow: hidden;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 22rem;
+        }
+        .bounce-1 {
+            animation-name: bounce;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes bounce {
+            0% {transform: translateY(0);}
+            50% {transform: translateY(-5px);}
+            100% {transform: translateY(0);}
+        }
+        @layer utilities {
+            .highlight {
+                background-color: #00aaff;
+                color: white;
+            }
+        }
+        .text-transition_inner div {
+            transition: transform 0.5s ease-in-out;
+        }
+        /* * {
+        border-color: red;
+        border-style: solid;
+        border-width: 2px;
+        } */
+    </style>
 	</head>
 	<body class=" w-screen overflow-x-hidden ">
 		<?php include 'navbar.html';?>
@@ -121,7 +133,7 @@
 									<h3 class="text-2xl font-bold text-white">Serveurs VPS</h3>
 									<p class="text-white">Découvrez un environement Virtuel rien que pour vous</p>
 									<div class="items-center justify-end hidden md:flex md:flex-1 lg:w-0  ml-24 ">
-										<a href="" class="inline-flex items-center justify-center px-4 py-2  text-sm font-medium text-white transform border border-transparent rounded-md shadow-sm bg-gradient-to-tr from-blue-500 to-[#00acff] whitespace-nowrap hover:-translate-y-0.5 transition duration-150 ease-in-out hover:shadow-xl">Découvrir</a>
+										<a href="vps-ssd.php" class="inline-flex items-center justify-center px-4 py-2  text-sm font-medium text-white transform border border-transparent rounded-md shadow-sm bg-gradient-to-tr from-blue-500 to-[#00acff] whitespace-nowrap hover:-translate-y-0.5 transition duration-150 ease-in-out hover:shadow-xl">Découvrir</a>
 									</div>
 								</div>
 							</div>
@@ -137,7 +149,7 @@
 									<h3 class="text-2xl font-bold text-white">Protection ANTI-DDoS</h3>
 									<p class="text-white">Dites adieux au down à cause des attaques ddos</p>
 									<div class="items-center justify-end hidden md:flex md:flex-1 lg:w-0  ml-24 ">
-										<a href="" class="inline-flex items-center justify-center px-4 py-2  text-sm font-medium text-white transform border border-transparent rounded-md shadow-sm bg-gradient-to-tr from-blue-500 to-[#00acff] whitespace-nowrap hover:-translate-y-0.5 transition duration-150 ease-in-out hover:shadow-xl">Découvrir</a>
+										<a href="https://nvhshield.com/" class="inline-flex items-center justify-center px-4 py-2  text-sm font-medium text-white transform border border-transparent rounded-md shadow-sm bg-gradient-to-tr from-blue-500 to-[#00acff] whitespace-nowrap hover:-translate-y-0.5 transition duration-150 ease-in-out hover:shadow-xl">Découvrir</a>
 									</div>
 								</div>
 							</div>
@@ -150,7 +162,7 @@
 									<h3 class="text-2xl font-bold text-white">Serveurs WEB</h3>
 									<p class="text-white">Faites briller vos talents de développeur avec nos offres WEB</p>
 									<div class="items-center justify-end hidden md:flex md:flex-1 lg:w-0  ml-24 ">
-										<a href="" class="inline-flex items-center justify-center px-4 py-2  text-sm font-medium text-white transform border border-transparent rounded-md shadow-sm bg-gradient-to-tr from-blue-500 to-[#00acff] whitespace-nowrap hover:-translate-y-0.5 transition duration-150 ease-in-out hover:shadow-xl">Découvrir</a>
+										<a href="web.php" class="inline-flex items-center justify-center px-4 py-2  text-sm font-medium text-white transform border border-transparent rounded-md shadow-sm bg-gradient-to-tr from-blue-500 to-[#00acff] whitespace-nowrap hover:-translate-y-0.5 transition duration-150 ease-in-out hover:shadow-xl">Découvrir</a>
 									</div>
 								</div>
 							</div>
@@ -163,7 +175,7 @@
 									<h3 class="text-2xl font-bold text-white">Offre VPN</h3>
 									<p class="text-white">Voyager en un clic avec nos offre VPN.</p>
 									<div class="items-center justify-end hidden md:flex md:flex-1 lg:w-0  ml-24 ">
-										<a href="" class="inline-flex items-center justify-center px-4 py-2  text-sm font-medium text-white transform border border-transparent rounded-md shadow-sm bg-gradient-to-tr from-blue-500 to-[#00acff] whitespace-nowrap hover:-translate-y-0.5 transition duration-150 ease-in-out hover:shadow-xl">Découvrir</a>
+										<a href="vpn.php" class="inline-flex items-center justify-center px-4 py-2  text-sm font-medium text-white transform border border-transparent rounded-md shadow-sm bg-gradient-to-tr from-blue-500 to-[#00acff] whitespace-nowrap hover:-translate-y-0.5 transition duration-150 ease-in-out hover:shadow-xl">Découvrir</a>
 									</div>
 								</div>
 							</div>
@@ -444,11 +456,11 @@
 					<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         <div class="single-testimonial bg-gray-100 shadow-sm rounded-lg p-6 hover:scale-105 transition-all duration-300">
                             <ul class="flex mb-2">
-                                <li><span class="fas fa-star text-yellow-500"></span></li>
-                                <li><span class="fas fa-star text-yellow-500"></span></li>
-                                <li><span class="fas fa-star text-yellow-500"></span></li>
-                                <li><span class="fas fa-star text-yellow-500"></span></li>
-                                <li><span class="fas fa-star text-yellow-500"></span></li>
+                                <li><i class='bx bxs-star text-yellow-500 ' ></i></li>
+                                <li><i class='bx bxs-star text-yellow-500 ' ></i></li>
+                                <li><i class='bx bxs-star text-yellow-500 ' ></i></li>
+                                <li><i class='bx bxs-star text-yellow-500 ' ></i></li>
+                                <li><i class='bx bxs-star text-yellow-500 ' ></i></li>
                             </ul>
                             <div class="ratting-content">
                                 <h5 class="text-xl font-semibold mb-2">Sur mesure dans un contexte difficile</h5>
@@ -462,11 +474,11 @@
                         
                         <div class="single-testimonial bg-gray-100 shadow-sm rounded-lg p-6 hover:scale-105 transition-all duration-300">
                             <ul class="flex mb-2">
-                                <li><span class="fas fa-star text-yellow-500"></span></li>
-                                <li><span class="fas fa-star text-yellow-500"></span></li>
-                                <li><span class="fas fa-star text-yellow-500"></span></li>
-                                <li><span class="fas fa-star text-yellow-500"></span></li>
-                                <li><span class="fas fa-star text-yellow-500"></span></li>
+                                <li><i class='bx bxs-star text-yellow-500 ' ></i></li>
+                                <li><i class='bx bxs-star text-yellow-500 ' ></i></li>
+                                <li><i class='bx bxs-star text-yellow-500 ' ></i></li>
+                                <li><i class='bx bxs-star text-yellow-500 ' ></i></li>
+                                <li><i class='bx bxs-star text-yellow-500 ' ></i></li>
                             </ul>
                             <div class="ratting-content">
                                 <h5 class="text-xl font-semibold mb-2">Très bonne protection</h5>
@@ -480,11 +492,11 @@
                         
                         <div class="single-testimonial bg-gray-100 shadow-sm rounded-lg p-6 hover:scale-105 transition-all duration-300">
                             <ul class="flex mb-2">
-                                <li><span class="fas fa-star text-yellow-500"></span></li>
-                                <li><span class="fas fa-star text-yellow-500"></span></li>
-                                <li><span class="fas fa-star text-yellow-500"></span></li>
-                                <li><span class="fas fa-star text-yellow-500"></span></li>
-                                <li><span class="fas fa-star text-yellow-500"></span></li>
+                                <li><i class='bx bxs-star text-yellow-500 ' ></i></li>
+                                <li><i class='bx bxs-star text-yellow-500 ' ></i></li>
+                                <li><i class='bx bxs-star text-yellow-500 ' ></i></li>
+                                <li><i class='bx bxs-star text-yellow-500 ' ></i></li>
+                                <li><i class='bx bxs-star text-yellow-500 ' ></i></li>
                             </ul>
                             <div class="ratting-content">
                                 <h5 class="text-xl font-semibold mb-2">Excellent rapport qualité-prix</h5>
@@ -597,6 +609,7 @@
 			
 			lancerAnimationCompteurs();
 		</script>
+
 		<script>
 			AOS.init();
 		</script>

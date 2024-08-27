@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Menu avec Hover</title>
-      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-      <link href="./css/output.css" rel="stylesheet">
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-      <!-- animation -->
-      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Menu avec Hover</title>
+       <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+       <link href="./css/output.css" rel="stylesheet">
+       <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+       <!-- animation -->
+       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-      <link rel="stylesheet" href="./css/perso/main.css">
-		<link rel="stylesheet" href="./css/perso/custom.css">
+       <link rel="stylesheet" href="./css/perso/main.css">
+       <link rel="stylesheet" href="./css/perso/custom.css">
 
       <style>
          /* Ajout de styles personnalisés pour gérer le menu déroulant */
@@ -158,9 +156,9 @@
                     <div class="col-md-12 col-lg-9">
                         <div class="content-with-sidebar">
                             <!--alert table start-->
-                            <table class="table vps-hosting-pricing-table domain-search-result-table alert-table mb-5">
+                            <table class="table vps-hosting-pricing-table domain-search-result-table alert-table mb-5 hover:border-0">
                                 <tbody>
-                                    <tr class="vps-pricing-row border-accent-primary">
+                                    <tr class="vps-pricing-row hover:border-0 ">
                                         <td>Domaine <span class="color-primary">example.com</span> est maintenant disponnible
                                             <br><small>Offre limités </small>
                                         </td>

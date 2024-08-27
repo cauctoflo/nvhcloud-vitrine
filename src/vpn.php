@@ -145,7 +145,7 @@
 		</section>
 
 
-         <?php include('footreseau.php'); ?>
+      <?php include "footreseau.php"; ?>
         
    </body>
 </html>

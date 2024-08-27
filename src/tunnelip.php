@@ -59,86 +59,89 @@
 
 
 
-         <section>
-			<section class="vps-pricing-plane ">
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="items-center sm:flex sm:flex-col sm:align-center ">
-							<div class="section-heading text-center mb-5">
-								<img src="images/Intel.svg" style="filter:drop-shadow(0px 0 20px #999490);" class="h-32 mx-auto" alt="">
-								<h1 class="inline-flex items-center content-center text-5xl font-extrabold text-center text-gray-900 sm:text-center">Tunnel IP</h1>
-								<p class="mt-2 w-96 mx-auto  text-center text-xl text-gray-500 sm:text-center">Idéal pour les entreprises voulant la gestion complètes de leurs réseaux</p>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <table class="table vps-hosting-pricing-table">
-                            <thead>
-                                <tr>
-                                    <th>Adresses IPv4</th>
-                                    <th>Adresses IPv6</th>
-                                    <th>Bande passante</th>
-                                    <th>Latence</th>
-                                    <th>Disponibilité</th>
-                                    <th colspan="2">Prix</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <?php
-                                    $json = file_get_contents("json/datacenter/tunnelip.json");
-                                    $data = json_decode($json, true);
-                                    $html = "";
-                                    
-                                    foreach ($data["plans"] as $id => $plan) {
-                                        $ipv4_addresses = $plan["ipv4_addresses"];
-                                        $ipv6_addresses = $plan["ipv6_addresses"];
-                                        $bandwidth = $plan["bandwidth"];
-                                        $latency = $plan["latency"];
-                                        $uptime = $plan["uptime"];
-                                        $price_month = $plan["price"]["month"]["amount"];
-                                        $price_year = $plan["price"]["year"]["amount"];
-                                        $on_sale = $plan["price"]["onSale"];
-                                        $discount = $plan["price"]["discount"];
-                                        $order_now = "#";
-                                        
-                                        if ($on_sale) {
-                                            $discount_amount = $price_month * ((int) str_replace("%", "", $discount) / 100);
-                                            $discounted_price = $price_month - $discount_amount;
-                                        }
-                                        
-                                        $html .= '<tr class="vps-pricing-row border-accent-primary">';
-                                        $html .= '<td data-value="IPv4 Addresses">' . $ipv4_addresses . "</td>";
-                                        $html .= '<td data-value="IPv6 Addresses">' . $ipv6_addresses . "</td>";
-                                        $html .= '<td data-value="Bandwidth">' . $bandwidth . "</td>";
-                                        $html .= '<td data-value="Latency">' . $latency . "</td>";
-                                        $html .= '<td data-value="Uptime">' . $uptime . "</td>";
-                                        $html .= '<td data-value="Price">';
-                                        $html .= "<p>";
-                                        if ($on_sale) {
-                                            $html .= '<br><span class="rate">' . number_format($discounted_price, 2) . "€<span>/month</span></span>";
-                                            $html .= '<span class="pricing-onsale">On sale - <span class="badge color-3 color-3-bg">Save ' . $discount . "</span></span>";
-                                        } else {
-                                            $html .= '<span class="rate">' . $price_month . "€<span>/month</span></span>";
-                                        }
-                                        $html .= "</p>";
-                                        $html .= "</td>";
-                                        $html .= "<td>";
-                                        $html .= '<a href="' . $order_now . '" class="btn primary-solid-btn">Commander</a>';
-                                        $html .= "</td>";
-                                        $html .= "</tr>";
-                                    }
-                                    echo $html;
-                                ?>
-                            </tbody>
-                        </table>
 
 
-						</div>
-					</div>
-				</div>
-			</section>
-		</section>
+      <!--pricing with switch section start-->
+      <section class="pricing-section ptb-100">
+          <div class="container">
+              <div class="row justify-content-center">
+                  <div class="col-md-9 col-lg-8">
+                      <div class="section-heading text-center mb-5">
+                          <h2 class="text-4xl font-bold mb-4">Nos prix d'hébergement TunnelIP</h2>
+                          <p class="lead">
+                              Découvrez nos offres d'hébergement TunnelIP professionnel à un prix abordable. Nous vous proposons une gamme complète de services pour répondre à vos besoins en matière d'hébergement Réseaux.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+
+
+
+              <div class="row align-items-center justify-content-between">
+
+                  <?php
+                  $json = file_get_contents("json/datacenter/tunnelip.json");
+                  $data = json_decode($json, true);
+                  $html = "";
+
+                  foreach ($data["plans"] as $id => $plan) {
+                      $name = $plan["name"];
+                      $ipv4_addresses = $plan["ipv4_addresses"];
+                      $ipv6_addresses = $plan["ipv6_addresses"];
+                      $bandwidth = $plan["bandwidth"];
+                      $latency = $plan["latency"];
+                      $uptime = $plan["uptime"];
+                      $price_month = $plan["price"]["month"]["amount"];
+                      $price_year = $plan["price"]["year"]["amount"];
+                      $on_sale = $plan["price"]["onSale"];
+                      $discount = $plan["price"]["discount"];
+                      $order_now = "#";
+
+                      if ($on_sale) {
+                          $discount_amount = $price_month * ((int) str_replace("%", "", $discount) / 100);
+                          $discounted_price = $price_month - $discount_amount;
+                      }
+
+                      $html .= '<div class="col-lg-4 col-md-4 col-12">';
+                      $html .= '<div class="card text-center single-pricing-pack">';
+                      $html .= '<div class="pt-5">';
+                      $html .= '<h5 class="mb-2 text-2xl">' . $name  . '</h5>';
+                      $html .= '</div>';
+                      $html .= '<div class="card-header pb-4 border-0 pricing-header">';
+
+                      if ($on_sale) {
+                          $html .= '<div class="price text-center mb-0 monthly-price">';
+                          $html .= number_format($discounted_price, 2) . '€<span>/month</span>';
+                          $html .= '</div>';
+                          $html .= '<span class="pricing-onsale">On sale - <span class="badge color-3 color-3-bg">Save ' . $discount . '</span></span>';
+                      } else {
+                          $html .= '<div class="price text-center mb-0 monthly-price">';
+                          $html .= $price_month . '€<span>/month</span>';
+                          $html .= '</div>';
+                      }
+
+                      $html .= '</div>';
+                      $html .= '<div class="card-body">';
+                      $html .= '<ul class="list-unstyled mb-4 pricing-feature-list">';
+                      $html .= '<li>IPv4 Addresses: ' . $ipv4_addresses . '</li>';
+                      $html .= '<li>IPv6 Addresses: ' . $ipv6_addresses . '</li>';
+                      $html .= '<li>Bandwidth: ' . $bandwidth . '</li>';
+                      $html .= '<li>Latency: ' . $latency . '</li>';
+                      $html .= '<li>Uptime: ' . $uptime . '</li>';
+                      $html .= '</ul>';
+                      $html .= '<a href="' . $order_now . '" class="btn outline-btn mb-3" target="_blank">Commander</a>';
+                      $html .= '</div>';
+                      $html .= '</div>';
+                      $html .= '</div>';
+
+                  }
+                  echo $html;
+                  ?>
+
+
+
+
+      </section>
 
 
          <?php include('footdatacenter.php'); ?>

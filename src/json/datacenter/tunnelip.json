@@ -1,6 +1,7 @@
 {
     "plans": {
         "1": {
+            "name": "Tunnel IP 1",
             "ipv4_addresses": "1 IPv4",
             "ipv6_addresses": "1 IPv6",
             "bandwidth": "100Mbits",
@@ -23,6 +24,7 @@
             }
         },
         "2": {
+            "name": "Tunnel IP 2",
             "ipv4_addresses": "2 IPv4",
             "ipv6_addresses": "2 IPv6",
             "bandwidth": "500Mbits",
@@ -45,6 +47,7 @@
             }
         },
         "3": {
+            "name": "Tunnel IP 3",
             "ipv4_addresses": "5 IPv4",
             "ipv6_addresses": "10 IPv6",
             "bandwidth": "1Gbits",

@@ -1,58 +1,60 @@
 <!DOCTYPE html>
 <html lang="fr">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Menu avec Hover</title>
-      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-      <link href="./css/output.css" rel="stylesheet">
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-      <!-- animation -->
-      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu avec Hover</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="./css/output.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-      <link rel="stylesheet" href="./css/perso/main.css">
-		<link rel="stylesheet" href="./css/perso/custom.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-      <style>
-         /* Ajout de styles personnalisés pour gérer le menu déroulant */
-         .group:hover .submenu {
-         display: block;
-         }
-         .text-transition_inner {
-         overflow: hidden;
-         display: block;
-         position: absolute;
-         top: 0;
-         left: 0;
-         height: 100%;
-         width: 22rem;
-         }
-         .bounce-1 {
-         animation-name: bounce;
-         animation-duration: 5s;
-         animation-iteration-count: infinite;
-         }
-         @keyframes bounce {
-         0% {transform: translateY(0);}
-         50% {transform: translateY(-5px);}
-         100% {transform: translateY(0);}
-         }
-         @layer utilities {
-         .highlight {
-         background-color: #00aaff;
-         color: white;
-         }
-         }
-         .text-transition_inner div {
-         transition: transform 0.5s ease-in-out;
-         }
-         /* * {
-         border-color: red;
-         border-style: solid;
-         border-width: 2px;
-         } */
-      </style>
+    <link rel="stylesheet" href="./css/perso/main.css">
+    <link rel="stylesheet" href="./css/perso/custom.css">
+
+    <style>
+        /* Ajout de styles personnalisés pour gérer le menu déroulant */
+        .group:hover .submenu {
+            display: block;
+        }
+        .text-transition_inner {
+            overflow: hidden;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 22rem;
+        }
+        .bounce-1 {
+            animation-name: bounce;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes bounce {
+            0% {transform: translateY(0);}
+            50% {transform: translateY(-5px);}
+            100% {transform: translateY(0);}
+        }
+        @layer utilities {
+            .highlight {
+                background-color: #00aaff;
+                color: white;
+            }
+        }
+        .text-transition_inner div {
+            transition: transform 0.5s ease-in-out;
+        }
+        /* * {
+        border-color: red;
+        border-style: solid;
+        border-width: 2px;
+        } */
+    </style>
    </head>
    <body class=" w-screen overflow-x-hidden ">
       <?php include 'navbar.html';?>
@@ -85,7 +87,7 @@
                                         <th colspan="2">Prix</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody >
                                     <?php
                                         $json = file_get_contents("json/web/web.json");
                                         $data = json_decode($json, true);
@@ -109,7 +111,7 @@
                                                 $discounted_price = $price_month - $discount_amount;
                                             }
                                             
-                                            $html .= '<tr class="vps-pricing-row border-accent-primary">';
+                                            $html .= '<tr  class="vps-pricing-row border-accent-primary">';
                                             $html .= '<td data-value="Storage">' . $storage . "</td>";
                                             $html .= '<td data-value="Bandwidth">' . $bandwidth . "</td>";
                                             $html .= '<td data-value="Databases">' . $databases . "</td>";
@@ -144,6 +146,8 @@
 
 
          <?php include('footweb.php'); ?>
-        
+
+      <script>
+          AOS.init();
    </body>
 </html>
