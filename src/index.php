@@ -6,7 +6,7 @@
     <title>Menu avec Hover</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="./css/output.css" rel="stylesheet">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <!-- animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -57,7 +57,7 @@
     </style>
 	</head>
 	<body class=" w-screen overflow-x-hidden ">
-		<?php include 'navbar.html';?>
+		<?php include 'navbar.php';?>
 		<section class="z-0 sm:mt-1 ">
 			<section class="sm:bg-blue-500  overflow-hidden">
 				<div class="pt-10 bg-white sm:pt-16 lg:pb-16 w-screen lg:overflow-hidden">
@@ -111,11 +111,11 @@
 										<div class="mt-6 m-auto space-y-6 w-full sm:w-8/12 md:w-7/12">
 											<h1
 												class="text-center text-3xl sm:text-4xl md:text-4xl font-bold text-gray-700 dark:text-white">
-												Nous innovons pour la qualité de chacun
+                                                Nous innovons pour offrir la meilleure qualité à chacun.
 											</h1>
 											<div class="hidden sm:block h-1 w-96 rounded-3xl -mt-4 -mb-4 mx-auto border-b-4 border-[#00aaff]"></div>
 											<p class="text-center text-sm sm:text-base md:text-xl text-gray-600 dark:text-gray-300">
-												Nos produits s'adaptent à vos besoins et à votre budget. Nous proposons de nombreuses solutions afin de répondre à tous les besoins.
+                                                Nos produits sont conçus pour s'adapter à vos attentes et à votre budget. Nous proposons une large gamme de solutions afin de satisfaire toutes les exigences.
 											</p>
 										</div>
 									</div>
@@ -511,7 +511,7 @@
 				</div>
 			</section>
 		</section>
-		<?php include 'footer.html'; ?>
+		<?php include 'footer.php'; ?>
 		<script>
 			const monthlyButton = document.getElementById('monthlyButton');
 			const annualButton = document.getElementById('annualButton');

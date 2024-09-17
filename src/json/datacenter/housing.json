@@ -2,68 +2,111 @@
     "plans": {
         "1": {
             "slots": "1U",
-            "power": "500W",
-            "cooling": "Standard",
-            "network": "1Gbits",
-            "ip": "1 IPv4 + 1 IPv6",
-            "geekbench_score": 1108,
-            "geekbench_percent": 10,
+            "power": "50W-500W",
+            "network": "1Gbits-100Gbits",
+            "ip": "1 IPv4",
+            "location": "Datacenter à Paris, France",
+            "options": [
+                "BGP",
+                "Électricité supplémentaire",
+                "Protection Anti-DDoS avec panel de gestion",
+                "Remote Hand"
+            ],
             "price": {
-                "year": {
-                    "amount": 240,
-                    "currency": "€",
-                    "billingCycle": "year"
-                },
                 "month": {
-                    "amount": 19.99,
+                    "amount": 40.00,
                     "currency": "€",
                     "billingCycle": "month"
                 },
-                "onSale": true,
-                "discount": "15%",
+                "onSale": false,
+                "discount": "20%",
                 "finishdate": 1730394873
             }
         },
         "2": {
             "slots": "2U",
-            "power": "1000W",
-            "cooling": "Advanced",
-            "network": "2Gbits",
-            "ip": "2 IPv4 + 1 IPv6",
-            "geekbench_score": 2200,
-            "geekbench_percent": 20,
+            "power": "100W-500W",
+            "network": "1Gbits-100Gbits",
+            "ip": "1 IPv4",
+            "location": "Datacenter à Paris, France",
+            "options": [
+                "BGP",
+                "Électricité supplémentaire",
+                "Protection Anti-DDoS avec panel de gestion",
+                "Remote Hand"
+            ],
             "price": {
-                "year": {
-                    "amount": 360,
-                    "currency": "€",
-                    "billingCycle": "year"
-                },
                 "month": {
-                    "amount": 29.99,
+                    "amount": 64.99,
                     "currency": "€",
                     "billingCycle": "month"
                 },
-                "onSale": true,
-                "discount": "10%",
+                "onSale": false,
+                "discount": "20%",
                 "finishdate": 1730394873
             }
         },
         "3": {
-            "slots": "4U",
-            "power": "1500W",
-            "cooling": "Premium",
-            "network": "5Gbits",
-            "ip": "4 IPv4 + 2 IPv6",
-            "geekbench_score": 4400,
-            "geekbench_percent": 40,
+            "slots": "12U (1/4 de baie)",
+            "power": "1KVA-3KVA",
+            "network": "1Gbits-100Gbits",
+            "ip": "9 IPv4",
+            "location": "Datacenter à Paris, France",
+            "options": [
+                "BGP",
+                "Électricité supplémentaire",
+                "Protection Anti-DDoS avec panel de gestion",
+                "Remote Hand"
+            ],
             "price": {
-                "year": {
-                    "amount": 480,
-                    "currency": "€",
-                    "billingCycle": "year"
-                },
                 "month": {
-                    "amount": 49.99,
+                    "amount": 64.99,
+                    "currency": "€",
+                    "billingCycle": "month"
+                },
+                "onSale": false,
+                "discount": "20%",
+                "finishdate": 1730394873
+            }
+        },
+        "4": {
+            "slots": "23U (1/2 de baie)",
+            "power": "1KVA-3KVA",
+            "network": "1Gbits-100Gbits",
+            "ip": "16 IPv4",
+            "location": "Datacenter à Paris, France",
+            "options": [
+                "BGP",
+                "Électricité supplémentaire",
+                "Protection Anti-DDoS avec panel de gestion",
+                "Remote Hand"
+            ],
+            "price": {
+                "month": {
+                    "amount": 64.99,
+                    "currency": "€",
+                    "billingCycle": "month"
+                },
+                "onSale": false,
+                "discount": "20%",
+                "finishdate": 1730394873
+            }
+        },
+        "5": {
+            "slots": "46U (1 baie)",
+            "power": "1KVA-6KVA",
+            "network": "1Gbits-100Gbits",
+            "ip": "16 IPv4",
+            "location": "Datacenter à Paris, France",
+            "options": [
+                "BGP",
+                "Électricité supplémentaire",
+                "Protection Anti-DDoS avec panel de gestion",
+                "Remote Hand"
+            ],
+            "price": {
+                "month": {
+                    "amount": 899.00,
                     "currency": "€",
                     "billingCycle": "month"
                 },

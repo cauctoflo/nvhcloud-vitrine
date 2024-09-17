@@ -66,28 +66,7 @@
     <div class="hero-content-wrap text-black text-center position-relative z-index">
         <h1 class="text-black text-4xl font-bold mb-4">Conditions Générale de Vente (CGV)</h1>
         <p class="lead text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eos facilis fuga id minima optio, perferendis porro quos saepe sapiente, suscipit, ullam vel voluptatem. Corporis dolorem eligendi laudantium quae vitae?</p>
-        <ul class="list-inline header-feature-list mt-5">
-            <li class="list-inline-item text-center px-10">
-                <a href="#FAQ">
-                    <i class='bx bx-info-circle  icon-md d-block mb-3'></i>
-                    <h5 class="text-black">FAQ</h5>
-                </a>
 
-            </li>
-            <li class="list-inline-item text-center px-10">
-                <a href="">
-                    <i class='bx bx-objects-horizontal-center icon-md d-block mb-3 here'></i>
-                    <h5 class="text-black here">CGV</h5>
-                </a>
-            </li>
-            <li class="list-inline-item text-center px-10">
-                <a href="CGU.php">
-                    <i class='bx bx-user-voice icon-md d-block mb-3' ></i>
-                    <h5 class="text-black">CGU</h5>
-                </a>
-
-            </li>
-        </ul>
     </div>
 </div>
 <section class="bg-gray-100 w-2/3 mt-32 mx-auto rounded-xl shadow-sm">
@@ -160,6 +139,8 @@
             </div>
         </div>
     </section>
+
+    <?php include 'footer.php'; ?>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const buttons = document.querySelectorAll('.question-btn');

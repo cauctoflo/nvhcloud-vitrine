@@ -2,65 +2,112 @@
     "plans": {
         "1": {
             "storage": "10Go",
-            "bandwidth": "100Go",
-            "databases": "1 MySQL",
-            "email_accounts": "10 comptes",
-            "ssl_certificate": "Gratuit",
+            "bandwidth": "Illimité",
+            "databases": "Illimité",
+            "email_accounts": "5 comptes",
+            "ssl_certificate": "Gratuit (Let's Encrypt)",
             "uptime": "99.9%",
             "price": {
                 "year": {
-                    "amount": 30,
+                    "amount": 11.88,
                     "currency": "€",
                     "billingCycle": "year"
                 },
                 "month": {
-                    "amount": 2.99,
+                    "amount": 0.99,
                     "currency": "€",
                     "billingCycle": "month"
                 },
-                "onSale": true,
-                "discount": "10%",
+                "onSale": false,
+                "discount": "20%",
                 "finishdate": 1730394873
             }
         },
         "2": {
-            "storage": "50Go",
+            "storage": "70Go",
             "bandwidth": "Illimité",
-            "databases": "5 MySQL",
-            "email_accounts": "50 comptes",
-            "ssl_certificate": "Gratuit",
+            "databases": "Illimité",
+            "email_accounts": "25 comptes",
+            "ssl_certificate": "Gratuit (Let's Encrypt)",
             "uptime": "99.95%",
             "price": {
                 "year": {
-                    "amount": 60,
+                    "amount": 59.88,
                     "currency": "€",
                     "billingCycle": "year"
                 },
                 "month": {
-                    "amount": 5.99,
+                    "amount": 4.99,
                     "currency": "€",
                     "billingCycle": "month"
                 },
-                "onSale": true,
-                "discount": "15%",
+                "onSale": false,
+                "discount": "20%",
                 "finishdate": 1730394873
             }
         },
         "3": {
-            "storage": "200Go",
+            "storage": "150Go",
             "bandwidth": "Illimité",
-            "databases": "Unlimited MySQL",
-            "email_accounts": "Unlimited comptes",
-            "ssl_certificate": "Gratuit",
+            "databases": "Illimité",
+            "email_accounts": "75 comptes",
+            "ssl_certificate": "Gratuit (Let's Encrypt)",
             "uptime": "99.99%",
             "price": {
                 "year": {
-                    "amount": 120,
+                    "amount": 95.88,
                     "currency": "€",
                     "billingCycle": "year"
                 },
                 "month": {
-                    "amount": 9.99,
+                    "amount": 7.99,
+                    "currency": "€",
+                    "billingCycle": "month"
+                },
+                "onSale": false,
+                "discount": "20%",
+                "finishdate": 1730394873
+            }
+        },
+        "4": {
+            "storage": "250Go",
+            "bandwidth": "Illimité",
+            "databases": "Illimité",
+            "email_accounts": "Illimité",
+            "ssl_certificate": "Gratuit (Let's Encrypt)",
+            "uptime": "99.99%",
+            "price": {
+                "year": {
+                    "amount": 155.88,
+                    "currency": "€",
+                    "billingCycle": "year"
+                },
+                "month": {
+                    "amount": 12.99,
+                    "currency": "€",
+                    "billingCycle": "month"
+                },
+                "onSale": false,
+                "discount": "20%",
+                "finishdate": 1730394873
+            }
+        },
+        "5": {
+            "storage": "500Go",
+            "bandwidth": "Illimité",
+            "databases": "Illimité",
+            "email_accounts": "Illimité",
+            "ssl_certificate": "Gratuit (Let's Encrypt)",
+            "uptime": "99.99%",
+            "domains_included": "2 domaines inclus (.fr ou .com)",
+            "price": {
+                "year": {
+                    "amount": 299.88,
+                    "currency": "€",
+                    "billingCycle": "year"
+                },
+                "month": {
+                    "amount": 24.99,
                     "currency": "€",
                     "billingCycle": "month"
                 },

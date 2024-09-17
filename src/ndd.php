@@ -55,7 +55,7 @@
       </style>
    </head>
    <body class=" w-screen overflow-x-hidden ">
-      <?php include 'navbar.html';?>
+      <?php include 'navbar.php';?>
 
 
 

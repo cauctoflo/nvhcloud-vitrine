@@ -55,7 +55,7 @@
       </style>
    </head>
    <body class=" w-screen overflow-x-hidden ">
-      <?php include 'navbar.html';?>
+      <?php include 'navbar.php';?>
 
 
 
@@ -191,6 +191,16 @@
 				</div>
 			</section>
 		</section>
+
+		<div class=""><div class="px-4 py-8 mx-auto text-center max-w-7xl sm:py-10 sm:px-3 lg:px-8"><p class="mt-5 text-xl text-black-500 sm:text-center" style="font-weight: bold;">Systèmes d'exploitation disponibles</p><div class="flow-root mt-4 lg:mt-4"><div class="grid items-start max-w-md grid-cols-1 gap-3 mx-auto mt-3 lg:grid-cols-3 md:max-w-2xl lg:max-w-none">
+			<div class="relative flex flex-col items-center p-5 transition duration-300 ease-in-out transform bg-white shadow-lg rounded-xl hover:-translate-y-2 hover:shadow-2xl">
+				<img class="object-contain h-16 my-auto" src="./images/Debian_logo.svg" alt="Debian Server" draggable="false"></div>
+			<div class="relative flex flex-col items-center p-5 transition duration-300 ease-in-out transform bg-white shadow-lg rounded-xl hover:-translate-y-2 hover:shadow-2xl">
+				<img class="object-contain h-16 my-auto " src="/images/Ubuntu_logo.svg" alt="Ubuntu Server" draggable="false"></div>
+				<div class="relative flex flex-col items-center p-5 transition duration-300 ease-in-out transform bg-white shadow-lg rounded-xl hover:-translate-y-2 hover:shadow-2xl">
+					<img class="object-contain h-16 my-auto" src="/images/Windows_logo.svg" alt="Windows Server" draggable="false"></div>
+				
+	</div></div></div>
 
 
          <?php include('footdatacenter.php'); ?>

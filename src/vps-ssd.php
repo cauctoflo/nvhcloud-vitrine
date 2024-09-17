@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="./css/perso/custom.css">
 	</head>
 	<body class=" w-screen overflow-x-hidden ">
-		<?php include "navbar.html"; ?>
+		<?php include "navbar.php"; ?>
 		<section>
 			<section class="vps-pricing-plane ">
 				<div class="container">
@@ -140,6 +140,88 @@
 				</div>
 			</section>
 		</section>
+
+<div class="px-4 py-8 mx-auto text-center max-w-7xl sm:py-10 sm:px-6 lg:px-8"><p class="mt-5 text-xl text-gray-500 sm:text-center">Systèmes d'exploitation disponibles</p><div class="flow-root mt-4 lg:mt-4"><div class="grid items-start max-w-md grid-cols-2 gap-6 mx-auto mt-6 lg:grid-cols-6 md:max-w-2xl lg:max-w-none"><div class="relative flex flex-col items-center p-5 transition duration-300 ease-in-out transform bg-white shadow-lg rounded-xl hover:-translate-y-2 hover:shadow-2xl"><img class="object-contain h-16 my-auto" src="./images/Ubuntu_logo.svg" alt="Logo Linux Ubuntu" draggable="false"></div><div class="relative flex flex-col items-center p-5 transition duration-300 ease-in-out transform bg-white shadow-lg rounded-xl hover:-translate-y-2 hover:shadow-2xl"><img class="object-contain h-16 my-auto " src="./images/Debian_logo.svg" alt="Logo Linux Debian" draggable="false"></div><div class="relative flex flex-col items-center p-5 transition duration-300 ease-in-out transform bg-white shadow-lg rounded-xl hover:-translate-y-2 hover:shadow-2xl"><img class="object-contain h-16 my-auto" src="./images/CentOS_logo.svg" alt="Logo Linux CentOS" draggable="false"></div><div class="relative flex flex-col items-center p-5 transition duration-300 ease-in-out transform bg-white shadow-lg rounded-xl hover:-translate-y-2 hover:shadow-2xl"><img class="object-contain h-16 p-1 my-auto" src="./images/Fedora_logo.svg" alt="Logo Linux Fedora" draggable="false"></div><div class="relative flex flex-col items-center p-5 transition duration-300 ease-in-out transform bg-white shadow-lg rounded-xl hover:-translate-y-2 hover:shadow-2xl" data-tip="true" data-for="windows_option" currentitem="false"><img class="object-contain h-16 p-1 my-auto" src="./images/Windows_logo.svg" alt="Logo Windows Server" draggable="false"><div class="__react_component_tooltip tb3d2db08-2c5c-4b0f-96eb-33c7d4b28252 place-top type-dark font-semibold bg-gray-200 rounded-2xl" id="windows_option" data-id="tooltip" style="left: 0px; top: -59px;"><style aria-hidden="true">
+  	.tb3d2db08-2c5c-4b0f-96eb-33c7d4b28252 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.tb3d2db08-2c5c-4b0f-96eb-33c7d4b28252.place-top {
+        margin-top: -10px;
+    }
+    .tb3d2db08-2c5c-4b0f-96eb-33c7d4b28252.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .tb3d2db08-2c5c-4b0f-96eb-33c7d4b28252.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .tb3d2db08-2c5c-4b0f-96eb-33c7d4b28252.place-bottom {
+        margin-top: 10px;
+    }
+    .tb3d2db08-2c5c-4b0f-96eb-33c7d4b28252.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .tb3d2db08-2c5c-4b0f-96eb-33c7d4b28252.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .tb3d2db08-2c5c-4b0f-96eb-33c7d4b28252.place-left {
+        margin-left: -10px;
+    }
+    .tb3d2db08-2c5c-4b0f-96eb-33c7d4b28252.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .tb3d2db08-2c5c-4b0f-96eb-33c7d4b28252.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .tb3d2db08-2c5c-4b0f-96eb-33c7d4b28252.place-right {
+        margin-left: 10px;
+    }
+    .tb3d2db08-2c5c-4b0f-96eb-33c7d4b28252.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .tb3d2db08-2c5c-4b0f-96eb-33c7d4b28252.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div></div><div class="relative flex flex-col items-center p-5 transition duration-300 ease-in-out transform bg-white shadow-lg rounded-xl hover:-translate-y-2 hover:shadow-2xl"><img class="object-contain h-16 p-1 my-auto" src="./images/PfSense_logo.png" alt="Logo Pfsense" draggable="false"></div></div></div><p class="mt-20 text-xl text-gray-500 sm:text-center">Applications One-Click install disponibles</p><div class="flow-root mt-4 lg:mt-4"><div class="grid items-start max-w-md grid-cols-2 gap-6 mx-auto mt-6 lg:grid-cols-6 md:max-w-2xl lg:max-w-none"><div class="relative flex flex-col items-center p-5 transition duration-300 ease-in-out transform bg-white shadow-lg rounded-xl hover:-translate-y-2 hover:shadow-2xl"><img class="object-contain h-16 my-auto" src="./images/Pterodactyl.png" alt="Logo Pterodactyl" draggable="false"></div><div class="relative flex flex-col items-center p-5 transition duration-300 ease-in-out transform bg-white shadow-lg rounded-xl hover:-translate-y-2 hover:shadow-2xl"><img class="object-contain h-16 my-auto" src="./images/plesk.svg" alt="Logo Plesk" draggable="false"></div><div class="relative flex flex-col items-center p-5 transition duration-300 ease-in-out transform bg-white shadow-lg rounded-xl hover:-translate-y-2 hover:shadow-2xl"><img class="object-contain h-16 my-auto" src="./images/wordpress.svg" alt="Logo Wordpress" draggable="false"></div><div class="relative flex flex-col items-center p-5 transition duration-300 ease-in-out transform bg-white shadow-lg rounded-xl hover:-translate-y-2 hover:shadow-2xl"><img class="object-contain h-16 my-auto" src="./images/openvpn.svg" alt="Logo OpenVPN" draggable="false"></div><div class="relative flex flex-col items-center p-5 transition duration-300 ease-in-out transform bg-white shadow-lg rounded-xl hover:-translate-y-2 hover:shadow-2xl"><img class="object-contain h-16 my-auto" src="./images/gitlab.svg" alt="Logo Gitlab" draggable="false"></div><div class="relative flex flex-col items-center p-5 transition duration-300 ease-in-out transform bg-white shadow-lg rounded-xl hover:-translate-y-2 hover:shadow-2xl"><img class="object-contain h-16 my-auto" src="./images/cp.svg" alt="Logo CPanel" draggable="false"></div></div></div></div>
+
+
+
+
+
+
 		<div class="container flex flex-col md:flex-row items-center p-6  shadow-md rounded-lg">
 			<div class="md:w-1/2 p-4">
 				<h1 class="text-2xl font-bold mb-4">Xeon® X5690 / Xeon® Gold 6138</h1>

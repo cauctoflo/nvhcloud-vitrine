@@ -57,7 +57,7 @@
     </style>
    </head>
    <body class=" w-screen overflow-x-hidden ">
-      <?php include 'navbar.html';?>
+      <?php include 'navbar.php';?>
 
 
 
@@ -144,6 +144,7 @@
 			</section>
 		</section>
 
+<div class=""><div class="px-4 py-8 mx-auto text-center max-w-7xl sm:py-10 sm:px-6 lg:px-8"><p class="mt-5 text-xl text-gray-500 sm:text-center">Quelques technologies populaires disponibles</p><div class="flow-root mt-4 lg:mt-4"><div class="grid items-start max-w-md grid-cols-2 gap-6 mx-auto mt-6 lg:grid-cols-6 md:max-w-2xl lg:max-w-none"><div class="relative flex flex-col items-center p-5 transition duration-300 ease-in-out transform bg-white shadow-lg rounded-xl hover:-translate-y-2 hover:shadow-2xl"><img class="object-contain h-16 my-auto" src="./images/PHP_logo.svg" alt="Logo PHP" draggable="false"></div><div class="relative flex flex-col items-center p-5 transition duration-300 ease-in-out transform bg-white shadow-lg rounded-xl hover:-translate-y-2 hover:shadow-2xl"><img class="object-contain h-16 my-auto " src="./images/Wordpress_logo.svg" alt="Logo WordPress" draggable="false"></div><div class="relative flex flex-col items-center p-5 transition duration-300 ease-in-out transform bg-white shadow-lg rounded-xl hover:-translate-y-2 hover:shadow-2xl"><img class="object-contain h-16 my-auto" src="./images/Prestashop_Logo.svg" alt="Logo PrestaShop" draggable="false"></div><div class="relative flex flex-col items-center p-5 transition duration-300 ease-in-out transform bg-white shadow-lg rounded-xl hover:-translate-y-2 hover:shadow-2xl"><img class="object-contain h-16 p-1 my-auto" src="./images/Joomla_logo.svg" alt="Logo Joomla" draggable="false"></div><div class="relative flex flex-col items-center p-5 transition duration-300 ease-in-out transform bg-white shadow-lg rounded-xl hover:-translate-y-2 hover:shadow-2xl"><img class="object-contain h-16 p-1 my-auto" src="./images/MySQL_logo.svg" alt="Logo MySQL" draggable="false"></div><div class="relative flex flex-col items-center p-5 transition duration-300 ease-in-out transform bg-white shadow-lg rounded-xl hover:-translate-y-2 hover:shadow-2xl"><img class="object-contain h-16 p-1 my-auto" src="./images/Roundcube_logo.png" alt="Logo RoundCube" draggable="false"></div></div></div></div></div>
 
          <?php include('footweb.php'); ?>
 

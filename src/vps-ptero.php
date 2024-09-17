@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="./css/perso/custom.css">
 	</head>
 	<body class=" w-screen overflow-x-hidden ">
-		<?php include "navbar.html"; ?>
+		<?php include "navbar.php"; ?>
 		<section>
 			<section class="vps-pricing-plane ">
 				<div class="container">

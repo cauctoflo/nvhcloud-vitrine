@@ -1,58 +1,62 @@
- <!-- Section datacenters -->
- <section class="max-w-7xl mx-auto py-10">
-            <div class="bg-white p-8 rounded-lg shadow">
-               <h2 class="text-xl font-semibold mb-4">Des datacentres proches de vous, et de vos clients.</h2>
-               <p class="text-gray-600">Louez des baies ou des serveurs dans nos datacentres à Paris, Grenoble et Tours. Pour héberger vos serveurs, qu'ils soient dédiés ou dans un environnement cloud, avec la tranquillité d'esprit qu'ils sont hébergés dans des datacentres certifiés, avec des réseaux redondants et une gestion de l'infrastructure en moins.</p>
-            </div>
-         </section>
-         <!-- Section Pourquoi nous choisir -->
-         <section class="max-w-7xl mx-auto py-10 grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="bg-white p-8 rounded-lg shadow">
-               <h3 class="text-lg font-semibold mb-2">Pourquoi nous choisir ?</h3>
-               <ul class="text-gray-600">
-                  <li class="mb-2"><span class="font-semibold">Réseau :</span> Notre réseau AS210926  possède une capacité de plus de 320 Gbps nous permettant d'être très résilients en cas de panne. Nous avons plusieurs sites de répartition interconnectés, ce qui nous permet d'opérer à plus de 100km de distance.</li>
-                  <li class="mb-2"><span class="font-semibold">Datacenters certifiés :</span> Notre infrastructure est hébergée dans des datacentres basés sur le modèle de conception Tier 3.</li>
-                  <li class="mb-2"><span class="font-semibold">Climatisation :</span> L'infrastructure est maintenue à une température de 23°C afin d'optimiser la durée de vie du matériel sans perdre ses performances.</li>
-               </ul>
-            </div>
-            <div>
-               <img src="https://via.placeholder.com/600x400" alt="Map Image" class="w-full h-auto rounded-lg shadow">
-            </div>
-         </section>
-         <!-- Section Redondance réseau -->
-         <section class="max-w-7xl mx-auto py-10">
-            <div class="bg-white p-8 rounded-lg shadow grid grid-cols-1 md:grid-cols-2 gap-8">
-               <div>
-                  <h3 class="text-lg font-semibold mb-2">Redondance réseau</h3>
-                  <p class="text-gray-600">Notre réseau AS210926  est alimenté par plusieurs fournisseurs. Nous utilisons des liens de secours sur un réseau diversifié pour assurer la continuité du service même lors d'une panne. Nous proposons du transit sur port 100, 400, 1000.</p>
-               </div>
-               <img src="https://via.placeholder.com/600x400" alt="Network Image" class="w-full h-auto rounded-lg shadow">
-            </div>
-         </section>
-         <!-- Section Redondance électrique -->
-         <section class="max-w-7xl mx-auto py-10">
-            <div class="bg-white p-8 rounded-lg shadow grid grid-cols-1 md:grid-cols-2 gap-8">
-               <img src="https://via.placeholder.com/600x400" alt="Electric Redundancy Image" class="w-full h-auto rounded-lg shadow">
-               <div>
-                  <h3 class="text-lg font-semibold mb-2">Redondance électrique</h3>
-                  <ul class="text-gray-600">
-                     <li class="mb-2"><span class="font-semibold">Doubles voies :</span> Chaque équipement en housing est alimenté par deux voies électriques afin de toujours rester en ligne lors d'un secours, dans le but d'offrir une disponibilité maximale.</li>
-                     <li class="mb-2"><span class="font-semibold">Onduleurs :</span> Chaque salle est alimentée par des onduleurs afin de réguler l'ensemble de l'alimentation. En cas de coupure de l'alimentation principale, l'alimentation passe automatiquement aux onduleurs pour continuer l'alimentation de vos serveurs.</li>
-                     <li class="mb-2"><span class="font-semibold">Générateurs :</span> En cas de panne électrique, les générateurs sont automatiquement démarrés afin de continuer d'alimenter tous les équipements pendant toute la durée de l'incident.</li>
-                  </ul>
-               </div>
-            </div>
-         </section>
-         <!-- Section Cogent Global Peer Exchange -->
-         <section class="max-w-7xl mx-auto py-10">
-            <div class="bg-white p-8 rounded-lg shadow grid grid-cols-1 md:grid-cols-2 gap-8">
-               <div>
-                  <h3 class="text-lg font-semibold mb-2">Cogent Global Peer Exchange (GPE)</h3>
-                  <p class="text-gray-600">Nos sites sont interconnectés avec plus d'un millier de datacentres grâce à Cogent Global Peer Exchange qui connecte plus de 10,000+ datacenters à travers le monde.</p>
-               </div>
-               <img src="https://via.placeholder.com/600x400" alt="Cogent Image" class="w-full h-auto rounded-lg shadow">
-            </div>
-         </section>
+<!-- Section datacenters -->
+<section class="max-w-7xl mx-auto py-10">
+    <div class="bg-white p-8 rounded-lg shadow">
+        <h2 class="text-xl font-semibold mb-4">Des datacenters à proximité de vous et de vos clients</h2>
+        <p class="text-gray-600">Louez des baies ou des serveurs dans nos datacenters situés à Paris, Grenoble et Tours. Que vous hébergiez des serveurs dédiés ou dans un environnement cloud, vous avez la tranquillité d'esprit avec des datacenters certifiés, des réseaux redondants et une gestion d'infrastructure simplifiée.</p>
+    </div>
+</section>
+
+<!-- Section Pourquoi nous choisir -->
+<section class="max-w-7xl mx-auto py-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div class="bg-white p-8 rounded-lg shadow">
+        <h3 class="text-lg font-semibold mb-2">Pourquoi nous choisir ?</h3>
+        <ul class="text-gray-600">
+            <li class="mb-2"><span class="font-semibold">Réseau robuste :</span> Notre réseau AS210926 possède une capacité supérieure à 320 Gbps, garantissant une forte résilience face aux pannes. Nos sites interconnectés nous permettent d'opérer efficacement à plus de 100 km de distance.</li>
+            <li class="mb-2"><span class="font-semibold">Datacenters certifiés :</span> Nos infrastructures sont hébergées dans des datacenters suivant le modèle de conception Tier 3.</li>
+            <li class="mb-2"><span class="font-semibold">Climatisation :</span> Pour optimiser l'efficacité énergétique, nous augmentons progressivement la température des salles jusqu'à 27°C (80°F) dans les allées froides.</li>
+        </ul>
+    </div>
+    <div>
+        <img src="./images/network.png" alt="Map Image" class="w-full h-auto rounded-lg shadow">
+    </div>
+</section>
+
+<!-- Section Redondance réseau -->
+<section class="max-w-7xl mx-auto py-10">
+    <div class="bg-white p-8 rounded-lg shadow grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+            <h3 class="text-lg font-semibold mb-2">Redondance réseau</h3>
+            <p class="text-gray-600">Notre réseau AS210926 est soutenu par plusieurs fournisseurs. Grâce à des liens de secours et un réseau diversifié, nous assurons la continuité du service, même en cas de panne. Nous proposons du transit via des ports de 100, 400, et 1000 Gbps.</p>
+        </div>
+        <img src="./images/data.png" alt="Network Image" class="w-full h-auto rounded-lg shadow">
+    </div>
+</section>
+
+<!-- Section Redondance électrique -->
+<section class="max-w-7xl mx-auto py-10">
+    <div class="bg-white p-8 rounded-lg shadow grid grid-cols-1 md:grid-cols-2 gap-8">
+        <img src="./images/ordi.jpg" alt="Electric Redundancy Image" class="w-full h-auto rounded-lg shadow">
+        <div>
+            <h3 class="text-lg font-semibold mb-2">Redondance électrique</h3>
+            <ul class="text-gray-600">
+                <li class="mb-2"><span class="font-semibold">Doubles voies :</span> Chaque équipement hébergé est alimenté par deux sources électriques, assurant une disponibilité continue, même lors de basculements en secours.</li>
+                <li class="mb-2"><span class="font-semibold">Onduleurs :</span> Les salles sont équipées d'onduleurs régulant l'alimentation. En cas de coupure, ils prennent le relais pour maintenir vos serveurs opérationnels.</li>
+                <li class="mb-2"><span class="font-semibold">Générateurs :</span> Lors d'une panne électrique, nos générateurs démarrent automatiquement pour garantir l'alimentation de tous les équipements pendant toute la durée de l'incident.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Section Sécurité -->
+<section class="max-w-7xl mx-auto py-10">
+    <div class="bg-white p-8 rounded-lg shadow grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+            <h3 class="text-lg font-semibold mb-2">Sécurité</h3>
+            <p class="text-gray-600">Nos datacenters International Business Exchange™ (IBX®) sont équipés de dispositifs de sécurité avancés. Nous appliquons des techniques et des procédures rigoureuses, avec cinq niveaux de contrôle, incluant la surveillance 24/7 par des agents de sécurité, des sas sécurisés et des lecteurs biométriques. Nos bâtiments sont également conçus de manière discrète pour une sécurité optimale.</p>
+        </div>
+        <img src="./images/security.jpg" alt="Security Image" class="w-full h-auto rounded-lg shadow">
+    </div>
+</section>
          <section>
 	<?php
 		$json = file_get_contents('json/faq.json');
@@ -102,4 +106,4 @@
 		});
 		});
 	</script>
-         <?php include 'footer.html'; ?>
+         <?php include 'footer.php'; ?>
